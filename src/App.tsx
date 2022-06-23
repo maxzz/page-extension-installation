@@ -5,10 +5,10 @@ import { UIToaster } from './components/UI/UiToaster';
 import { UISymbolsDefs } from './components/UI/UIIcons';
 import './App.scss';
 
-function DataLoader() {
-    useAtomValue(dataLoadAtom);
-    return null;
-}
+// function DataLoader() {
+//     useAtomValue(dataLoadAtom);
+//     return null;
+// }
 
 function PopperRoot() {
     return (
@@ -20,10 +20,10 @@ function PopperRoot() {
 
 function App() {
     return (<>
-        <UIToaster />
+        {/* <UIToaster />
         <PopperRoot />
-        <UISymbolsDefs />
-        <DataLoader />
+        <UISymbolsDefs /> */}
+        {/* <DataLoader /> */}
         <div className="min-h-full overflow-hidden bg-slate-50">
             <App2_Main />
         </div>
