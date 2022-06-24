@@ -12,11 +12,25 @@ export function App2_Main() {
             <div className="flex-1 overflow-y-auto" style={{ overflow: 'overlay' }}>
                 <div className="h-full flex flex-col">
                     <div className="flex-1 mx-auto max-w-[29rem] sm:max-w-[37rem] md:max-w-2xl lg:max-w-3xl flex flex-col items-start justify-center space-y-4">
-                        <p>To install the Password Manager Chrome extension, click the Install Extension button and follow the onscreen instructions.</p>
-                        {/* TODO: Open Google Store installation page.  */}
-                        <button className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 border rounded shadow active:scale-[.97]">
+
+                        {/* TODO: You must install the extension from the Google Store. */}
+                        {/* TODO: You must install the extension from trusted places such as the Google Store. */}
+                        <p>You must install the extension from trusted places such as the Google Store.</p>
+                        <p>
+                            To install the Password Manager Chrome extension, click the Install Extension button and follow the onscreen instructions.
+                        </p>
+
+                        {/* TODO: Go to the installation page in the Google Store. */}
+                        {/* TODO: Install the extension from the Google Store. */}
+                        {/* TODO: Open the Google Store installation page. */}
+                        {/* TODO: Open the Google Store extension installation page. */}
+                        <a
+                            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 border rounded shadow active:scale-[.97]"
+                            href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
+                            target="_blank"
+                        >
                             Install extension
-                        </button>
+                        </a>
                     </div>
 
                     {/* <div className="self-start w-full h-96">
