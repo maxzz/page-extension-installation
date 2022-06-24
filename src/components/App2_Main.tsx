@@ -2,6 +2,7 @@ import React from 'react';
 import { App1_Header } from './App1_Header';
 import { App3_Footer } from './App3_Footer';
 import hidBuilding from '../assets/sources/fromhid-website/corporate-building.webp';
+import { Section1_Policy } from './sections/Section1_Policy';
 
 export function App2_Main() {
     return (
@@ -10,8 +11,8 @@ export function App2_Main() {
             <App1_Header />
 
             <div className="flex-1 overflow-y-auto" style={{ overflow: 'overlay' }}>
-                <div className="h-full flex flex-col">
-                    <div className="flex-1 mx-auto max-w-[29rem] sm:max-w-[37rem] md:max-w-2xl lg:max-w-3xl flex flex-col items-start justify-center space-y-4">
+                <div className="h-full flex flex-col mx-auto max-w-[29rem] sm:max-w-[37rem] md:max-w-2xl lg:max-w-3xl">
+                    <div className="flex-1 flex flex-col items-start justify-center space-y-4">
 
                         {/* TODO: You must install the extension from the Google Store. */}
                         {/* TODO: You must install the extension from trusted places such as the Google Store. */}
@@ -32,6 +33,8 @@ export function App2_Main() {
                             Install extension
                         </a>
                     </div>
+
+                    <Section1_Policy />
 
                     {/* <div className="self-start w-full h-96">
                         <div className="w-full h-full scale-50 origin-bottom"
