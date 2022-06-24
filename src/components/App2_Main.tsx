@@ -3,6 +3,7 @@ import { App1_Header } from './App1_Header';
 import { App3_Footer } from './App3_Footer';
 import hidBuilding from '../assets/sources/fromhid-website/corporate-building.webp';
 import { Section1_Policy } from './sections/Section1_Policy';
+import { Section2_Eula } from './sections/Section2_Eula';
 
 export function App2_Main() {
     return (
@@ -39,6 +40,7 @@ export function App2_Main() {
                             Install Extension
                         </a>
 
+                        <Section2_Eula />
                         <Section1_Policy />
                     </div>
 
