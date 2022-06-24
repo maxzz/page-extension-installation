@@ -1,5 +1,4 @@
 import { useAtomValue } from 'jotai';
-import { dataLoadAtom } from './store/store';
 import { App2_Main } from './components/App2_Main';
 import { UIToaster } from './components/UI/UiToaster';
 import { UISymbolsDefs } from './components/UI/UIIcons';
@@ -10,13 +9,13 @@ import './App.scss';
 //     return null;
 // }
 
-function PopperRoot() {
-    return (
-        <div className="absolute z-50">
-            <div id="portal"></div>
-        </div>
-    );
-}
+// function PopperRoot() {
+//     return (
+//         <div className="absolute z-50">
+//             <div id="portal"></div>
+//         </div>
+//     );
+// }
 
 function App() {
     return (<>
@@ -24,7 +23,7 @@ function App() {
         <PopperRoot />
         <UISymbolsDefs /> */}
         {/* <DataLoader /> */}
-        <div className="min-h-full overflow-hidden bg-slate-50">
+        <div className="min-h-full overflow-hidden bg-slate-50"> {/* debug-screens */}
             <App2_Main />
         </div>
     </>);
