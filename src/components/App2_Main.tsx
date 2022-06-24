@@ -8,11 +8,17 @@ export function App2_Main() {
     return (
         // <div className="h-screen flex flex-col bg-[#036eb3] text-white">
         <div className="h-screen flex flex-col bg-gradient-to-t from-primary-50 to-[#036eb3] text-primary-900">
+            {/* debug-screens */}
             <App1_Header />
 
             <div className="flex-1 overflow-y-auto" style={{ overflow: 'overlay' }}>
-                <div className="h-full flex flex-col mx-auto max-w-[29rem] sm:max-w-[37rem] md:max-w-2xl lg:max-w-3xl">
+
+                <div className="h-full flex flex-col mx-auto max-w-[50ch] md:max-w-[65ch]">
                     <div className="flex-1 flex flex-col items-start justify-center space-y-4">
+
+                        <div className="prose">
+                            <h3>Instalation</h3>
+                        </div>
 
                         {/* TODO: You must install the extension from the Google Store. */}
                         {/* TODO: You must install the extension from trusted places such as the Google Store. */}
@@ -30,11 +36,13 @@ export function App2_Main() {
                             href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
                             target="_blank"
                         >
-                            Install extension
+                            Install Extension
                         </a>
+
+                        <Section1_Policy />
                     </div>
 
-                    <Section1_Policy />
+                    
 
                     {/* <div className="self-start w-full h-96">
                         <div className="w-full h-full scale-50 origin-bottom"

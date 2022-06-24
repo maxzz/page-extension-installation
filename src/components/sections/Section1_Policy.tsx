@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Section1_Policy() {
     return (
-        <div className="prose">
+        <div className="prose py-4 max-w-full">
             <h3>Privacy Policy</h3>
             <p>
                 1. This extension does not store, share or transmit any user data to any remote server.
