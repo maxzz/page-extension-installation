@@ -11,10 +11,10 @@ export function App1_Header() {
                 <div className="w-20 py-2 flex items-center justify-center bg-white rounded-md">
                     <IconHIDLogo className="px-2 fill-title5" stroke="currentColor" strokeWidth={0.2} fill="none" />
                 </div>
-                <div className="pb-1 text-xl tracking-tighter font-light text-slate-100 whitespace-nowrap" style={textShadow}>
-                    DigitalPersona
-                    <span className="inline-block">&#174;</span> Password Manager Extension for Chrome/Microsoft Edge
-                </div>
+                <h1 className="pb-1 text-sm md:text-xl tracking-tighter font-light text-slate-100 whitespace-normal sm:whitespace-nowrap" style={textShadow}>
+                    <span className="inline-block">DigitalPersona</span>
+                    <span className="inline-block">&#174;</span> Password Manager Extension <span className="inline-block">for Chrome / Microsoft Edge</span>
+                </h1>
             </div>
         </div>
         <div className="h-1 bg-title5" style={elevation4Shadow}></div>
