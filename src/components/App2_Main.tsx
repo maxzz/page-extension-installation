@@ -40,11 +40,12 @@ export function App2_Main() {
                             Install Extension
                         </a>
 
-                        <Section2_Eula />
                         <Section1_Policy />
+
+                        <Section2_Eula />
                     </div>
 
-                    
+
 
                     {/* <div className="self-start w-full h-96">
                         <div className="w-full h-full scale-50 origin-bottom"
