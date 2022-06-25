@@ -42,7 +42,7 @@ export function App2_Main() {
 
                         <Section1_Policy />
 
-                        <Section2_Eula />
+                        {/* <Section2_Eula /> */}
                     </div>
 
 
