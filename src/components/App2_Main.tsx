@@ -6,11 +6,11 @@ import { Section1_Policy } from './sections/Section1_Policy';
 import { Section2_Eula } from './sections/Section2_Eula';
 
 function InstallButton() {
-    return (<>
-        {/* TODO: Go to the installation page in the Google Store. */}
-        {/* TODO: Install the extension from the Google Store. */}
-        {/* TODO: Open the Google Store installation page. */}
-        {/* TODO: Open the Google Store extension installation page. */}
+    // TODO: Go to the installation page in the Google Store.
+    // TODO: Install the extension from the Google Store.
+    // TODO: Open the Google Store installation page.
+    // TODO: Open the Google Store extension installation page.
+    return (
         <a
             className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 hover:bg-primary-200 border rounded shadow hover:shadow-lg active:scale-[.97]"
             href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
@@ -18,14 +18,13 @@ function InstallButton() {
         >
             Install Extension
         </a>
-    </>);
+    );
 }
 
 export function App2_Main() {
     return (
         // <div className="h-screen flex flex-col bg-[#036eb3] text-white">
-        <div className="h-screen flex flex-col bg-gradient-to-t from-primary-50 to-[#036eb3] text-primary-900">
-            {/* debug-screens */}
+        <div className="h-screen flex flex-col bg-gradient-to-t from-primary-50 to-[#036eb3] text-primary-900"> {/* debug-screens */}
             <App1_Header />
 
             <div className="flex-1 overflow-y-auto" style={{ overflow: 'overlay' }}>
@@ -90,7 +89,8 @@ export function App2_Main() {
                         }}
                     >
                     </div>
- */}
+                    */}
+
                     {/* <div className="self-start">
                         <img className="h-40 opacity-50" src={hidBuilding} alt="HID building" />
                     </div> */}

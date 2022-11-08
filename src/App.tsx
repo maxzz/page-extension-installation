@@ -1,8 +1,7 @@
-import { useAtomValue } from 'jotai';
+// import { useAtomValue } from 'jotai';
+// import { UIToaster } from './components/UI/UiToaster';
+// import { UISymbolsDefs } from './components/UI/UIIcons';
 import { App2_Main } from './components/App2_Main';
-import { UIToaster } from './components/UI/UiToaster';
-import { UISymbolsDefs } from './components/UI/UIIcons';
-import './App.scss';
 
 // function DataLoader() {
 //     useAtomValue(dataLoadAtom);
