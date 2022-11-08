@@ -33,7 +33,7 @@ export function App2_Main() {
                         {/* TODO: Open the Google Store installation page. */}
                         {/* TODO: Open the Google Store extension installation page. */}
                         <a
-                            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 border rounded shadow active:scale-[.97]"
+                            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 hover:bg-primary-200 border rounded shadow hover:shadow-lg active:scale-[.97]"
                             href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
                             target="_blank"
                         >
