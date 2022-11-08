@@ -5,6 +5,22 @@ import hidBuilding from '../assets/sources/fromhid-website/corporate-building.we
 import { Section1_Policy } from './sections/Section1_Policy';
 import { Section2_Eula } from './sections/Section2_Eula';
 
+function InstallButton() {
+    return (<>
+        {/* TODO: Go to the installation page in the Google Store. */}
+        {/* TODO: Install the extension from the Google Store. */}
+        {/* TODO: Open the Google Store installation page. */}
+        {/* TODO: Open the Google Store extension installation page. */}
+        <a
+            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 hover:bg-primary-200 border rounded shadow hover:shadow-lg active:scale-[.97]"
+            href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
+            target="_blank"
+        >
+            Install Extension
+        </a>
+    </>);
+}
+
 export function App2_Main() {
     return (
         // <div className="h-screen flex flex-col bg-[#036eb3] text-white">
@@ -28,18 +44,7 @@ export function App2_Main() {
                             To install the Password Manager Chrome extension, click the Install Extension button and follow the onscreen instructions.
                         </p>
 
-                        {/* TODO: Go to the installation page in the Google Store. */}
-                        {/* TODO: Install the extension from the Google Store. */}
-                        {/* TODO: Open the Google Store installation page. */}
-                        {/* TODO: Open the Google Store extension installation page. */}
-                        <a
-                            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 hover:bg-primary-200 border rounded shadow hover:shadow-lg active:scale-[.97]"
-                            href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
-                            target="_blank"
-                        >
-                            Install Extension
-                        </a>
-
+                        <InstallButton />
                         <Section1_Policy />
 
                         {/* <Section2_Eula /> */}
