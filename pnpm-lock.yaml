@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@popperjs/core':
-        specifier: 2.11.5
-        version: 2.11.5
+        specifier: 2.11.8
+        version: 2.11.8
       '@react-spring/web':
-        specifier: 9.4.5
-        version: 9.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 9.7.4
+        version: 9.7.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@use-gesture/react':
-        specifier: 10.2.15
-        version: 10.2.15(react@18.3.1)
+        specifier: 10.3.1
+        version: 10.3.1(react@18.3.1)
       dom-confetti:
         specifier: ^0.2.2
         version: 0.2.2
@@ -37,13 +37,13 @@ importers:
         version: 2.4.1(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-popper:
         specifier: 2.3.0
-        version: 2.3.0(@popperjs/core@2.11.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-popper-tooltip:
-        specifier: 4.4.1
-        version: 4.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 4.4.2
+        version: 4.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-use:
-        specifier: 17.4.0
-        version: 17.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 17.5.1
+        version: 17.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@rollup/plugin-replace':
         specifier: ^4.0.0
@@ -252,35 +252,35 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@popperjs/core@2.11.5':
-    resolution: {integrity: sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==}
+  '@popperjs/core@2.11.8':
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@react-spring/animated@9.4.5':
-    resolution: {integrity: sha512-KWqrtvJSMx6Fj9nMJkhTwM9r6LIriExDRV6YHZV9HKQsaolUFppgkOXpC+rsL1JEtEvKv6EkLLmSqHTnuYjiIA==}
+  '@react-spring/animated@9.7.4':
+    resolution: {integrity: sha512-7As+8Pty2QlemJ9O5ecsuPKjmO0NKvmVkRR1n6mEotFgWar8FKuQt2xgxz3RTgxcccghpx1YdS1FCdElQNexmQ==}
     peerDependencies:
-      react: ^16.8.0  || >=17.0.0 || >=18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  '@react-spring/core@9.4.5':
-    resolution: {integrity: sha512-83u3FzfQmGMJFwZLAJSwF24/ZJctwUkWtyPD7KYtNagrFeQKUH1I05ZuhmCmqW+2w1KDW1SFWQ43RawqfXKiiQ==}
+  '@react-spring/core@9.7.4':
+    resolution: {integrity: sha512-GzjA44niEJBFUe9jN3zubRDDDP2E4tBlhNlSIkTChiNf9p4ZQlgXBg50qbXfSXHQPHak/ExYxwhipKVsQ/sUTw==}
     peerDependencies:
-      react: ^16.8.0  || >=17.0.0 || >=18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  '@react-spring/rafz@9.4.5':
-    resolution: {integrity: sha512-swGsutMwvnoyTRxvqhfJBtGM8Ipx6ks0RkIpNX9F/U7XmyPvBMGd3GgX/mqxZUpdlsuI1zr/jiYw+GXZxAlLcQ==}
+  '@react-spring/rafz@9.7.4':
+    resolution: {integrity: sha512-mqDI6rW0Ca8IdryOMiXRhMtVGiEGLIO89vIOyFQXRIwwIMX30HLya24g9z4olDvFyeDW3+kibiKwtZnA4xhldA==}
 
-  '@react-spring/shared@9.4.5':
-    resolution: {integrity: sha512-JhMh3nFKsqyag0KM5IIM8BQANGscTdd0mMv3BXsUiMZrcjQTskyfnv5qxEeGWbJGGar52qr5kHuBHtCjQOzniA==}
+  '@react-spring/shared@9.7.4':
+    resolution: {integrity: sha512-bEPI7cQp94dOtCFSEYpxvLxj0+xQfB5r9Ru1h8OMycsIq7zFZon1G0sHrBLaLQIWeMCllc4tVDYRTLIRv70C8w==}
     peerDependencies:
-      react: ^16.8.0  || >=17.0.0 || >=18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  '@react-spring/types@9.4.5':
-    resolution: {integrity: sha512-mpRIamoHwql0ogxEUh9yr4TP0xU5CWyZxVQeccGkHHF8kPMErtDXJlxyo0lj+telRF35XNihtPTWoflqtyARmg==}
+  '@react-spring/types@9.7.4':
+    resolution: {integrity: sha512-iQVztO09ZVfsletMiY+DpT/JRiBntdsdJ4uqk3UJFhrhS8mIC9ZOZbmfGSRs/kdbNPQkVyzucceDicQ/3Mlj9g==}
 
-  '@react-spring/web@9.4.5':
-    resolution: {integrity: sha512-NGAkOtKmOzDEctL7MzRlQGv24sRce++0xAY7KlcxmeVkR7LRSGkoXHaIfm9ObzxPMcPHQYQhf3+X9jepIFNHQA==}
+  '@react-spring/web@9.7.4':
+    resolution: {integrity: sha512-UMvCZp7I5HCVIleSa4BwbNxynqvj+mJjG2m20VO2yPoi2pnCYANy58flvz9v/YcXTAvsmL655FV3pm5fbr6akA==}
     peerDependencies:
-      react: ^16.8.0  || >=17.0.0 || >=18.0.0
-      react-dom: ^16.8.0  || >=17.0.0 || >=18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
 
   '@rollup/plugin-replace@4.0.0':
     resolution: {integrity: sha512-+rumQFiaNac9y64OHtkHGmdjm7us9bo1PlbgQfdihQtuNxzjpaB064HbRnewUOggLQxVCCyINfStkgmBeQpv1g==}
@@ -417,11 +417,11 @@ packages:
   '@types/react@18.3.3':
     resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
-  '@use-gesture/core@10.2.15':
-    resolution: {integrity: sha512-R8k5GHKR6J3n48K1xiWCBSnTsxmfiVCp+MYPMhFaoHT1/oIjrFA6SeMmWDl0REwP/CpBfNdQ0FwOo/0dGjPhwA==}
+  '@use-gesture/core@10.3.1':
+    resolution: {integrity: sha512-WcINiDt8WjqBdUXye25anHiNxPc0VOrlT8F6LLkU6cycrOGUDyY/yyFmsg3k8i5OLvv25llc0QC45GhR/C8llw==}
 
-  '@use-gesture/react@10.2.15':
-    resolution: {integrity: sha512-Hdfp17a3iHDo33jasd8GIPlIjM4wxNzn1O9apNX2VrF7X2ewzXp4wCCQ4aPqsnyvBA1WhR8KHMrBS/XWQZxTHQ==}
+  '@use-gesture/react@10.3.1':
+    resolution: {integrity: sha512-Yy19y6O2GJq8f7CHf7L0nxL8bf4PZCPaVOCgJrusOeFHY1LvHgYXnmnXg6N5iwAnbgbZCDjo60SiM6IPJi9C5g==}
     peerDependencies:
       react: '>= 16.8.0'
 
@@ -1045,8 +1045,8 @@ packages:
       react: '>=16'
       react-dom: '>=16'
 
-  react-popper-tooltip@4.4.1:
-    resolution: {integrity: sha512-Qe4KH/CAdUYKWzCiV5g7XQGAHxqw9HIbZJpCUmvS+9s0d4qXk+ViCBp/lcTjUr1EG9FeNRt5LCy52tYBh2kO1Q==}
+  react-popper-tooltip@4.4.2:
+    resolution: {integrity: sha512-y48r0mpzysRTZAIh8m2kpZ8S1YPNqGtQPDrlXYSGvDS1c1GpG/NUXbsbIdfbhXfmSaRJuTcaT6N1q3CKuHRVbg==}
     peerDependencies:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
@@ -1068,11 +1068,11 @@ packages:
       react: '*'
       tslib: '*'
 
-  react-use@17.4.0:
-    resolution: {integrity: sha512-TgbNTCA33Wl7xzIJegn1HndB4qTS9u03QUwyNycUnXaweZkE4Kq2SB+Yoxx8qbshkZGYBDvUXbXWRUmQDcZZ/Q==}
+  react-use@17.5.1:
+    resolution: {integrity: sha512-LG/uPEVRflLWMwi3j/sZqR00nF6JGqTTDblkXK2nzXsIvij06hXl1V/MZIlwj1OKIQUtlh1l9jK8gLsRyCQxMg==}
     peerDependencies:
-      react: ^16.8.0  || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
+      react: '*'
+      react-dom: '*'
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -1485,38 +1485,37 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@popperjs/core@2.11.5': {}
+  '@popperjs/core@2.11.8': {}
 
-  '@react-spring/animated@9.4.5(react@18.3.1)':
+  '@react-spring/animated@9.7.4(react@18.3.1)':
     dependencies:
-      '@react-spring/shared': 9.4.5(react@18.3.1)
-      '@react-spring/types': 9.4.5
+      '@react-spring/shared': 9.7.4(react@18.3.1)
+      '@react-spring/types': 9.7.4
       react: 18.3.1
 
-  '@react-spring/core@9.4.5(react@18.3.1)':
+  '@react-spring/core@9.7.4(react@18.3.1)':
     dependencies:
-      '@react-spring/animated': 9.4.5(react@18.3.1)
-      '@react-spring/rafz': 9.4.5
-      '@react-spring/shared': 9.4.5(react@18.3.1)
-      '@react-spring/types': 9.4.5
+      '@react-spring/animated': 9.7.4(react@18.3.1)
+      '@react-spring/shared': 9.7.4(react@18.3.1)
+      '@react-spring/types': 9.7.4
       react: 18.3.1
 
-  '@react-spring/rafz@9.4.5': {}
+  '@react-spring/rafz@9.7.4': {}
 
-  '@react-spring/shared@9.4.5(react@18.3.1)':
+  '@react-spring/shared@9.7.4(react@18.3.1)':
     dependencies:
-      '@react-spring/rafz': 9.4.5
-      '@react-spring/types': 9.4.5
+      '@react-spring/rafz': 9.7.4
+      '@react-spring/types': 9.7.4
       react: 18.3.1
 
-  '@react-spring/types@9.4.5': {}
+  '@react-spring/types@9.7.4': {}
 
-  '@react-spring/web@9.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@react-spring/web@9.7.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@react-spring/animated': 9.4.5(react@18.3.1)
-      '@react-spring/core': 9.4.5(react@18.3.1)
-      '@react-spring/shared': 9.4.5(react@18.3.1)
-      '@react-spring/types': 9.4.5
+      '@react-spring/animated': 9.7.4(react@18.3.1)
+      '@react-spring/core': 9.7.4(react@18.3.1)
+      '@react-spring/shared': 9.7.4(react@18.3.1)
+      '@react-spring/types': 9.7.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -1627,11 +1626,11 @@ snapshots:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  '@use-gesture/core@10.2.15': {}
+  '@use-gesture/core@10.3.1': {}
 
-  '@use-gesture/react@10.2.15(react@18.3.1)':
+  '@use-gesture/react@10.3.1(react@18.3.1)':
     dependencies:
-      '@use-gesture/core': 10.2.15
+      '@use-gesture/core': 10.3.1
       react: 18.3.1
 
   '@vitejs/plugin-react@1.3.2':
@@ -2127,17 +2126,17 @@ snapshots:
     transitivePeerDependencies:
       - csstype
 
-  react-popper-tooltip@4.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-popper-tooltip@4.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.0
-      '@popperjs/core': 2.11.5
+      '@popperjs/core': 2.11.8
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-popper: 2.3.0(@popperjs/core@2.11.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  react-popper@2.3.0(@popperjs/core@2.11.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@popperjs/core': 2.11.5
+      '@popperjs/core': 2.11.8
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-fast-compare: 3.2.2
@@ -2150,7 +2149,7 @@ snapshots:
       react: 18.3.1
       tslib: 2.6.3
 
-  react-use@17.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-use@17.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@types/js-cookie': 2.2.7
       '@xobotyi/scrollbar-width': 1.9.5
