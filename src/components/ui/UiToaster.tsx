@@ -1,6 +1,5 @@
-import React from 'react';
 import { toast as callToast, Toaster as ToasterComponent } from 'react-hot-toast';
-import { IconCross } from './UIIcons';
+import { IconCross } from '@/components/ui';
 
 export function UIToaster() {
     return (
