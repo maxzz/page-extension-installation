@@ -21,7 +21,7 @@ export function App3_Footer() {
             </Link>
             <div className="flex items-center space-x-4">
                 {/* <Link href="https://www.hidglobal.com/sites/default/files/crossmatch/AltusAddons/g01/PrivacyPolicy.txt" target="_blank">Privacy policy</Link> */}
-                <Link href="https://www.hidglobal.com/sites/default/files/crossmatch/AltusAddons/g01/pagedp/EULA.html" target="_blank">End User License Agreement</Link>
+                <Link href="https://www3.hidglobal.com/sites/default/files/crossmatch/AltusAddons/g01/pagedp/EULA.html" target="_blank">End User License Agreement</Link>
                 {/* title="Open the source code of the project on Github" */}
             </div>
         </div>
