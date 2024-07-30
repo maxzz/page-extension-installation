@@ -1,4 +1,4 @@
-import React from "react";
+import { ReactNode } from "react";
 import { a, useTransition } from "@react-spring/web";
 
 export const animationScaleY = {
@@ -8,15 +8,19 @@ export const animationScaleY = {
 };
 
 export const animationConfig = {
-    //config: { mass: 0.2, tension: 692, clamp: true },
     config: { duration: 200 },
+    //config: { mass: 0.2, tension: 692, clamp: true },
 };
 
-export function UIListTransition({ open, children }: { open: boolean; children: React.ReactNode; }) {
+export function UIListTransition({ open, children }: { open: boolean; children: ReactNode; }) {
+
     const transition = useTransition(open, { ...animationScaleY, ...animationConfig });
-    return transition((styles, item) => (
-        item && <a.div style={styles}>
-            {children}
-        </a.div>
-    ));
+
+    return transition(
+        (styles, item) => (
+            item && <a.div style={styles}>
+                {children}
+            </a.div>
+        )
+    );
 }

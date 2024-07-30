@@ -1,4 +1,4 @@
-import * as React from 'react';
+import { CSSProperties, ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import { Config, usePopperTooltip } from 'react-popper-tooltip';
 import { classNames } from '@/utils/classnames';
@@ -10,19 +10,20 @@ type UITooltipOptions = {
     popperConfig?: Config;
     classNamesContainer?: string;
     classNamesArrow?: string;
-    arrowStyle?: React.CSSProperties;
+    arrowStyle?: CSSProperties;
 };
 
 type UITooltipProps = UITooltipOptions & {
-    trigger: React.ReactNode;
-    children?: React.ReactNode;
+    trigger: ReactNode;
+    children?: ReactNode;
 };
 
 // To customize borders with Tailwind:
 //      classNamesContainer={`p-0 bg-[#555] border border-[red]`}
-//      arrowStyle={{ '--tooltipBorder': 'red', '--tooltipBackground': '#555' } as React.CSSProperties}
+//      arrowStyle={{ '--tooltipBorder': 'red', '--tooltipBackground': '#555' } as CSSProperties}
 
 export function UITooltip({ trigger, children, arrow = false, runInPortal = true, popperConfig, classNamesContainer, classNamesArrow, arrowStyle }: UITooltipProps) {
+
     const {
         getArrowProps,
         getTooltipProps,
@@ -49,6 +50,7 @@ export function UITooltip({ trigger, children, arrow = false, runInPortal = true
         <div ref={setTriggerRef}>
             {trigger}
         </div>
+        
         {popper}
     </>);
 }
