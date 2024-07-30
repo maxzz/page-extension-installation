@@ -1,25 +1,9 @@
-import React from 'react';
 import { App1_Header } from '../1-header';
 import { App3_Footer } from '../3-footer';
 import hidBuilding from '../assets/sources/fromhid-website/corporate-building.webp';
 import { Section1_Policy } from '../sections/1-policy';
 import { Section2_Eula } from '../sections/2-eula';
-
-function InstallButton() {
-    // TODO: Go to the installation page in the Google Store.
-    // TODO: Install the extension from the Google Store.
-    // TODO: Open the Google Store installation page.
-    // TODO: Open the Google Store extension installation page.
-    return (
-        <a
-            className="px-4 py-3 text-primary-900 bg-primary-300 border-primary-400 hover:bg-primary-200 border rounded shadow hover:shadow-lg active:scale-[.97]"
-            href="https://chrome.google.com/webstore/detail/digitalpersona-altus/piimgpjgnagkckjlhjcppbkbjjfjmnbh"
-            target="_blank"
-        >
-            Install Extension
-        </a>
-    );
-}
+import { InstallButton } from './1-install-button';
 
 export function App2_Main() {
     return (
@@ -34,8 +18,12 @@ export function App2_Main() {
 
                     {/* TODO: You must install the extension from the Google Store. */}
                     {/* TODO: You must install the extension from trusted places such as the Google Store. */}
-                    <p>You must install the extension from trusted places such as the Google Store.</p>
-                    <p> To install the Password Manager Chrome extension, click the Install Extension button and follow the onscreen instructions.</p>
+                    <p>
+                        You must install the extension from trusted places such as the Google Store.
+                    </p>
+                    <p>
+                        To install the Password Manager Chrome extension, click the Install Extension button and follow the onscreen instructions.
+                    </p>
 
                     <InstallButton />
                     <Section1_Policy />
