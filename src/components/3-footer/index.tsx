@@ -9,8 +9,10 @@ function Link({ className, children, ...rest }: AnchorHTMLAttributes<HTMLAnchorE
     );
 }
 
-const wwwLink = 'https://www.hidglobal.com/products/software/digitalpersona/digitalpersona';
-const www3Link = 'https://www3.hidglobal.com/sites/default/files/resource_files/iams-digitalpersona-premium-br-en_1.pdf';
+const wwwLink = "https://www.hidglobal.com/products/software/digitalpersona/digitalpersona";
+const www3Link = "https://www3.hidglobal.com/sites/default/files/resource_files/iams-digitalpersona-premium-br-en_1.pdf";
+
+const eualLink = "https://digitalpersona.hidglobal.com/g02/pagedp/EULA.html";
 
 export function App3_Footer() {
     return (
@@ -30,11 +32,13 @@ export function App3_Footer() {
                 {/* 
                 <Link href="https://www.hidglobal.com/sites/default/files/crossmatch/AltusAddons/g01/PrivacyPolicy.txt" target="_blank">
                     Privacy policy
-                </Link> */}
+                </Link>
+                */}
 
-                <Link href="https://www3.hidglobal.com/sites/default/files/crossmatch/AltusAddons/g01/pagedp/EULA.html" target="_blank">
+                <Link href={eualLink} target="_blank">
                     End User License Agreement
                 </Link>
+
                 {/* title="Open the source code of the project on Github" */}
             </div>
 
