@@ -1,7 +1,7 @@
 import { Atom, atom, Getter, Setter } from 'jotai';
 import { Atomize, atomWithCallback } from '@/hooks/atomsX';
 import { debounce } from '@/utils/debounce';
-import { toastError } from '@/components/ui2/UiToaster';
+import { toastError } from '@/components/ui/UiToaster';
 import { uuid } from '@/utils/uuid';
 
 //#region LocalStorage

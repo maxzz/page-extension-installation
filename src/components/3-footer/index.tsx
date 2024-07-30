@@ -1,6 +1,6 @@
 import React, { AnchorHTMLAttributes, HTMLAttributes } from 'react';
 import { classNames } from '@/utils/classnames';
-import { IconGithubLogo } from '../ui2/UIIcons';
+import { IconGithubLogo } from '../ui/UIIcons';
 
 function Link({ className, children, ...rest }: AnchorHTMLAttributes<HTMLAnchorElement>) {
     return (
