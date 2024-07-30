@@ -1,9 +1,9 @@
 import React from 'react';
-import { App1_Header } from './1-header';
-import { App3_Footer } from './3-footer';
+import { App1_Header } from '../1-header';
+import { App3_Footer } from '../3-footer';
 import hidBuilding from '../assets/sources/fromhid-website/corporate-building.webp';
-import { Section1_Policy } from './sections/1-policy';
-import { Section2_Eula } from './sections/2-eula';
+import { Section1_Policy } from '../sections/1-policy';
+import { Section2_Eula } from '../sections/2-eula';
 
 function InstallButton() {
     // TODO: Go to the installation page in the Google Store.
